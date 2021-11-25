@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(/Img/pexels-travis-blessing-1363876.jpg);
+    background-size: cover;
+}
+
+h1, .zag{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lemon', cursive;
+    
+    
+}
+
+h1{
+    padding: 40px;
+    color: #9d65c9;
+    font-size: 40px;
+}
+
+.zag{
+    color: #9d65c9;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.controler{
+    position: fixed;
+    width: 100px;
+    height: 300px;
+    background:#2a3d66;
+    margin-left: 90%;
+    border-radius: 13%;
+    box-shadow: 3px 3px 3px 3px  #5d54a4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+img{
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left: -10px;
+}
+
+img:hover{
+    width: 87px;
+    height: 87px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    padding: 10px;
+    font-size: 40px;
+    text-align: start;
+    font-family: 'Lemon', cursive;
+    color: #821752;
+}
+
+.block-1{
+    margin: 10px;
+    display: inline-block;
+    width: 320px;
+    height: 150px;
+    background:#5d54a4;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px 3px #2a3d66;
+    
+}
+.block-1:hover{
+    opacity: .80;
+}
+
+button{
+    width: 90px;
+    height: 50px;
+    background: #2d4059;
+    border-radius: 5px;
+    outline: none;
+    border-color: #e84a5f;
+    font-size: 16px;
+    color: #e5e5e5;
+    text-align: center;
+    font-family: 'Lemon', cursive;
+    font-size: 20px;
+}
+
+h3{
+    padding: 6px;
+    font-size: 22px;
+    font-weight: 500;
+    color:#d54062;
+}
+
+.part-1::after{
+    content: "Lesson card";
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 20px;
+    color:#d54062;
+}
+
+.line{
+
+    align-items:center;
+    width: 200px;
+    height: 2px;
+    border-radius:4%;
+    background:#6101cf;
+}
+
+.block-line{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.Sprint-1{
+    width: 1060px;
+    height: 470px;
+    border-radius:5%;
+    
+}
+.Sprint-1:hover{
+    background:#9d65c9;
+    box-shadow: 5px 5px 5px 5px #d789d7;
+}
+
+button:hover{
+    color:rgb(255, 60, 60);
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+
+.Sprint-2{
+    width: 1060px;
+    height: 600px;
+    border-radius:5%;
+    
+}
+
+.Sprint-2:hover{
+    background:#9d65c9;
+    box-shadow: 5px 5px 5px 5px #d789d7;
+}
+

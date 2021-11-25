@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(/Img/pexels-travis-blessing-1363876.jpg);
+    background-size: cover;
+}
+
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(45deg, rgb(21, 0, 80), rgb(63, 0, 113), rgb(97, 0, 148));
+background: -moz-linear-gradient(45deg, rgb(21, 0, 80), rgb(63, 0, 113), rgb(97, 0, 148));
+background: linear-gradient(45deg, rgb(21, 0, 80), rgb(63, 0, 113), rgb(97, 0, 148));
+    width: 100%;
+    border: 8px solid #0b0b0b;
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Lemon', cursive;
+    font-weight: 200x;
+    margin: 20px;
+    position: absolute;
+    margin-left: 5%;
+    color: #e11398;
+}
+
+.a-1{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80%;
+}
+
+a{
+    text-decoration: none;
+    margin: 30px;
+    font-weight: 600;
+    color: #e11398;
+    font-size: 20px;
+}
+
+.container-2{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-left{
+    width: 50%;
+    height: 1000px;
+}
+.main-right{
+    width: 50%;
+    height: 1000px;
+}
+
+h2{
+    color:#a600ff;
+    font-family: 'Lemon', cursive;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.p-2{
+    color:#e11398;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.up-left{
+    padding: 40px;
+}
+
+.p-2{
+    padding: 10px;
+}
+.container-card{
+    padding: 60px;
+    width: 440px;
+    height: 150px;
+    background: linear-gradient(45deg, rgb(125, 25, 53), rgb(180, 43, 81), rgb(230, 62, 109));
+    border: 5px solid #420516;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    margin: 30px;
+ 
+}
+.card-1{
+    text-align: center;
+    width: 500px;
+}
+
+h3{
+    color: #f381c9;
+    font-size: 20px;
+    font-family: 'Lemon', cursive;
+}
+.up-card{
+    width: 430px;
+    height: 30px;
+}
+.p-card{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ff4e9f;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-3{
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.container-4{
+    padding: 30px;
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(45deg, rgb(125, 25, 53), rgb(180, 43, 81), rgb(230, 62, 109));
+    border: 5px solid #420516;
+    border-radius:10%;
+}
+h4{
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Lemon', cursive;
+    color: rgb(255, 212, 157);
+}
+
+a:hover{
+    font-size: 25px;
+}
+
+
+
+@media only screen and (max-width:1580px){
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background: url(/Img/pexels-travis-blessing-1363876.jpg);
+        background-size:auto;
+        
+    }
+    .container-1{
+        width: 1536px;
+    }
+    h1{
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'Lemon', cursive;
+        font-weight: 200x;
+        display: flex;
+        align-items:center;
+        position: absolute;
+        margin-left: 5%;
+        color: #e11398;
+    }
+
+    .a-1{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 60%;
+    }
+    .container-4{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .container-3{
+        position: absolute;
+        bottom: -1144px;
+        left: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    h4{
+        font-size: 22px;
+    }
+    .cards{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+    .p-2{
+        font-size: 33px;
+    }
+}

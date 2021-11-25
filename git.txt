@@ -1,0 +1,8 @@
+git init
+git add .
+git status
+git commit -m "NAME"
+git config --global user.name NdtFoxy
+git config --global user.email nikita12764586@gmail.com
+git remote add origin https://github.com/NdtFoxy/leson-2.git
+git push -u origin master
